@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <title>Conctacto</title>
+</head>
+<body>
+
+    <header>
+
+        <nav class="contenedorHeader">
+
+            <h1 class="titulo"><a href="/">Malichas</a></h1>
+
+            <ul class="botones">
+                <li> <a class="boton" href="/src/pages/productos.html">Productos</a></li>
+                <li> <a class="boton" href="/src/pages/datos.html">Acerca de nosotros</a></li>
+                <li> <a class="boton" href="/src/pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <form>
+        <fieldset style="display:inline-block;"><legend>Informacion Personal</legend>
+                    <div>Sexo:</div>
+                    <label for="hombre">Hombre<input type="radio" name="hombre" value="hombre"></label>
+                    <label for="muher">Mujer<input type="radio" name="mujer" value="mujer"></label>
+                    
+                    <div>Nombre:</div>
+                    <input type="text",name="nombre",value="Nombre">
+                    
+                    <div>Apellido:</div>
+                    <input type="text",name="apellido",value="Apellido">
+                    
+                    <div>Talle</div>
+                    <select name="talles">
+                    <option value="L">Large</option>
+                    <option value="M">Medium</option>
+                    <option value="S">Small</option>
+                    </select>
+
+                    <div>
+                        <input type="submit" value="Enviar"></label>
+                    </div>   
+        </fieldset>
+    </form>
+</body>
+</html>
